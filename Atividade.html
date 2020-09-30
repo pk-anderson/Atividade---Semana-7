@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Individual - Semana 6</title>
+    <style>
+        p {
+            font: Normal 20px Arial;
+        }
+        label, input {
+            font: Normal 18px Arial;
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        button {
+            height: 30px;
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,8 +26,23 @@
         <p>Análise e Desenvolvimento de Sistemas - 2º período</p>
         <p>Disciplina: Gerência de Configuração e Mudança</p>
     </header>
+    <div id="formulario">
+        <form action="/Atividade-Semana-6" method="POST">
+            <label for="Nome">Insira o seu nome: </label>
+            <input id="Nome"></br> 
+            <label id="Email">Insira o seu E-mail: </label>
+            <input id="Email"></br>
+            <label id="tel">Insira o seu telefone: </label>
+            <input id="tel"></br>
+            <label id="Curso">Informe o seu curso: </label>
+            <input id="Curso">
+        </form>
+    </div>
+    <div id="botao">
+        <button type="submit">Enviar</button>
+    </div>
     <footer>
-        <p>Patrick Anderson de Souza. Cajazeiras, 30 de setembro de 2020.</p>
+        <p><strong>Patrick Anderson de Souza. Cajazeiras, 30 de setembro de 2020.</strong></p>
     </footer>
 </body>
 </html>
